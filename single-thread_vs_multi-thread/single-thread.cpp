@@ -8,12 +8,13 @@
 
 void do_a_million(int iteration)
 {
-    //cout << "Iteration " << iteration << " start" << endl;
+    cout << "Iteration " << iteration << " start" << endl;
     for (int i = 1; i <= MILLION; i++)
     {
-        getRandString(STR_LEN);
+        string str = getRandString(STR_LEN);
+        cout << str << endl;
     }
-    //cout << "Iteration " << iteration << " complete" << endl;
+    cout << "Iteration " << iteration << " complete" << endl;
 }
 
 int main()

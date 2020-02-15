@@ -12,12 +12,13 @@ typedef vector<thread> thread_vector;
 
 void do_a_million(int iteration)
 {
-    //cout << "Thread " << iteration << " start" << endl;
+    cout << "Thread " << iteration << " start" << endl;
     for (int i = 1; i <= MILLION; i++)
     {
-        getRandString(STR_LEN);
+        string str = getRandString(STR_LEN);
+        cout << str << endl;
     }
-    //cout << "Thread " << iteration << " complete" << endl;
+    cout << "Thread " << iteration << " complete" << endl;
 }
 
 int main()
