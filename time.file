@@ -1,0 +1,12 @@
+prabuntu@prabuntu-VirtualBox:~/repos/Javasript_EvenLoop$ sh ./run.sh > ./result/resutls.log
+prabuntu@prabuntu-VirtualBox:~/repos/Javasript_EvenLoop$ tail -n 10 ./result/resutls.log 
+multi-thread : do_task : str = X7QnA7VPMAkN97dC
+multi-thread : do_task : str = Q394b97VKgCdCdn3
+multi-thread : do_task : str = dY5uqqa7s3iM3bp7
+multi-thread : do_task : str = ul9UVryX4aXV64SX
+multi-thread : do_task : str = 9LUzcDTcLFSoutQW
+multi-thread : do_task : str = 55wDNsIYdhATqeUo
+Thread 38 complete
+16:01:30.633604209 multi_thread_program completed
+16:01:30.634514664 time taken by single thread program = 78193959558 ns
+16:01:30.635537533 time taken by multi thread program  = 81435785395 ns

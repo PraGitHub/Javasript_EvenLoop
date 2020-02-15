@@ -2,9 +2,9 @@
 #include<map>
 #include "rand-string.h"
 
-#define TASK_LENGTH 10000
-#define NUM_ITERATIONS 100
-#define STR_LEN 10
+#define TASK_LENGTH 65536
+#define NUM_ITERATIONS 128
+#define STR_LEN 16
 
 void do_task(int iteration)
 {

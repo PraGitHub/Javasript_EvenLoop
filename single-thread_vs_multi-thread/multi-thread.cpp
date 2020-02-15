@@ -4,9 +4,9 @@
 #include<map>
 #include "rand-string.h"
 
-#define TASK_LENGTH 10000
-#define NUM_THREADS 100
-#define STR_LEN 10
+#define TASK_LENGTH 65536
+#define NUM_THREADS 128
+#define STR_LEN 16
 
 typedef vector<thread> thread_vector;
 
