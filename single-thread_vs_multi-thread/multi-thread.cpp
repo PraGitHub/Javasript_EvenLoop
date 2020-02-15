@@ -17,7 +17,6 @@ void do_task(int iteration)
     {
         string str = getRandString(STR_LEN);
         cout << "multi-thread : do_task : str = " << str << endl;
-        cout << str << endl;
     }
     cout << "Thread " << iteration << " complete" << endl;
 }
