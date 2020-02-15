@@ -16,8 +16,8 @@ clean_create_bin () {
 
 compile () {
     log "compiling source"
-    "${COMPILER}" "${SRC_DIR}/single-thread.cpp" -o "${BIN_DIR}/single_thread_program"
-    "${COMPILER}" "${SRC_DIR}/multi-thread.cpp" -o "${BIN_DIR}/multi_thread_program" -pthread
+    "${COMPILER}" "${SRC_DIR}/single-thread.cpp" "${SRC_DIR}/rand-string.cpp" -I "${SRC_DIR}" -o "${BIN_DIR}/single_thread_program"
+    "${COMPILER}" "${SRC_DIR}/multi-thread.cpp" "${SRC_DIR}/rand-string.cpp" -I "${SRC_DIR}" -o "${BIN_DIR}/multi_thread_program" -pthread
     log "done compiling"
 }
 
